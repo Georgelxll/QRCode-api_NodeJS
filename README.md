@@ -7,7 +7,8 @@ Permite ao usuário digitar um texto ou link, escolher o tamanho do QR Code e ba
 
 ## 🖼️ Demonstração
 
-![Exemplo de QR Code](https://user-images.githubusercontent.com/your-demo-link.png)
+![image](https://github.com/user-attachments/assets/f7dc4525-764e-48bd-b068-6d888b5e191f)
+
 
 ---
 
