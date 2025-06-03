@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gerador de QR Code</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Gerador de QR Code</h1>
+  <input type="text" id="text" placeholder="Digite o texto ou link"/>
+  <br />
+  <select id="size">
+  <option value="50">50px</option>
+  <option value="100">100px</option>
+  <option value="200" selected>200px</option>
+  <option value="300">300px</option>
+  <option value="400">400px</option>
+  </select>
+  <br />
+  <button onclick="generateQR()">Gerar QR Code</button>
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
